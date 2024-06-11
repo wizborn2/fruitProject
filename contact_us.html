@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheets/site.css" />
+  </head>
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <div id="banner">
+        <p>Notification</p>
+      </div>
+      <nav>
+        <a href=""><img id="banner-logo"  src="images/Logo.PNG" /></a>
+        <a href="index.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="confirmation.html">Confirmation</a>
+        <a href="contact_us.html">Contact Us</a>
+        <a href="faqs.html">FAQs</a>
+        
+
+      </nav>
+    </header>
+    <main>
+      
+    <h1>Contact Us</h1>
+    <hr />
+
+    <h2>Locations</h2>
+    <table>
+      <tr>
+        <th>Logo</th>
+        <th>Location</th>
+        <th>Opening Hours</th>
+        <th>Email Address</th>
+        <th>Phone Number</th>
+      </tr>
+      <tr>
+        <td><img class="logo"  src="images/Logo.PNG" alt="logo 1" /></td>
+        <td>Birmingham</td>
+        <td>9am - 5pm</td>
+        <td>birminghambranch@fruitie.com</td>
+        <td>01211998884</td>
+      </tr>
+      <tr>
+        <td><img class="logo"  src="images/Logo.PNG" alt="logo 1" /></td>
+        <td>London</td>
+        <td>9am - 5pm</td>
+        <td>londonbranch@fruitie.com</td>
+        <td>02030098554</td>
+      </tr>
+      <tr>
+        <td><img class="logo" src="images/Logo.PNG" alt="logo 1" /></td>
+        <td>Manchester</td>
+        <td>9am - 5pm</td>
+        <td>Manchesterbranch@fruitie.com</td>
+        <td>01612734651</td>
+      </tr>
+    </table>
+    <h2>General Enquiries</h2>
+    <form action="confirmation.html">
+      <label for="fullname">Name: *</label><br />
+      <input required type="text" id="fullname" name="fullname" /><br /><br />
+      <label for="email">Email: *</label><br />
+      <input required type="email" id="email" name="emailaddress" /><br /><br />
+      <label for="employed">Are you employed?</label><br />
+      <input type="radio" value="Y" name="employed" />Yes
+      <input type="radio" value="N" name="employed" />No<br /><br />
+      <label for="enquiry">State your enquiry: *</label><br />
+      <textarea
+        required
+        id="enquiry"
+        name="enquiry"
+        cols="50"
+        row="10"
+        maxlength="150"
+      ></textarea
+      ><br /><br />
+      <input type="submit" /><br /><br />
+    </form>
+    </main>
+
+    <footer>
+      <br/><br/>
+      <a href="https://www.amazon.com">Amazon</a>
+      <a href="https://www.ebay.com" target="_blank">eBay</a>
+      <p id="copy">&#169; Flo Webdesign 2024</p>
+    </footer>
+    
+  </body>
+</html>
